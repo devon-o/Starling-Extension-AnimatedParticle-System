@@ -15,7 +15,7 @@ More information
 
 Particle configurations can be created with the 71 Squared Particle Designer or the online Particle Editor. For more info, see:
 
-[1]: http://www.starling-framework.org
-[2]: http://particledesigner.71squared.com
-[3]: http://onebyonedesign.com/flash/particleeditor/
-[4]: https://github.com/PrimaryFeather/Starling-Extension-Particle-System
+- http://www.starling-framework.org
+- http://particledesigner.71squared.com
+- http://onebyonedesign.com/flash/particleeditor/
+- https://github.com/PrimaryFeather/Starling-Extension-Particle-System
