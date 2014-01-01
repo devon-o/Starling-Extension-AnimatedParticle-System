@@ -13,9 +13,11 @@ The example directory contains a quick demonstration for creating a particle sys
 More information
 ----------------
 
-Particle configurations can be created with the 71 Squared Particle Designer or the online Particle Editor. For more info, see:
+Particle configurations can be created with the 71 Squared Particle Designer or the online Particle Editor. Sprite sheets can be created with Texture Packer or within the Flash IDE (or other sprite sheet generators). For the moment, sprite sheets should be created with equally sized rectangles (no clipping) - this is a known issue and is being worked. For more info, see:
 
 - http://www.starling-framework.org
 - http://particledesigner.71squared.com
 - http://onebyonedesign.com/flash/particleeditor/
 - https://github.com/PrimaryFeather/Starling-Extension-Particle-System
+- http://www.codeandweb.com/texturepacker
+- http://www.adobe.com/devnet/flash/articles/using-sprite-sheet-generator.html
