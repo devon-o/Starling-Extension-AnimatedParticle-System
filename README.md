@@ -8,7 +8,7 @@ This extension depends on the Starling Framework: https://github.com/PrimaryFeat
 Sample Code
 -----------
 
-The example directory contains a quick demonstration for creating a particle system of 500 animated birds. All artwork in the example belongs to Gamua/PrimaryFeather.
+The example directory contains a quick demonstration for creating a particle system of 500 animated birds. All artwork in the example belongs to Gamua/PrimaryFeather. A compiled version of the example can be seen here: http://onebyonedesign.com/flash/starling/anipart/
 
 More information
 ----------------
