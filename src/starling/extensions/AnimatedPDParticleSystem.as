@@ -97,10 +97,12 @@ package starling.extensions
             mPremultipliedAlpha = false;
         }
         
-        override public function dispose(disposeAtlas:Boolean=false):void 
+        /**
+         * Dispose (including the particle TextureAtlas).
+         */
+        public function disposeWithAtlas():void
         {
-            if (disposeAtlas)
-                this.atlas.dispose();
+            this.atlas.dispose();
             super.dispose();
         }
         
