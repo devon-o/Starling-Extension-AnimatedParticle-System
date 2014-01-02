@@ -12,9 +12,10 @@
 package starling.extensions
 {
     import flash.geom.Rectangle;
+    import starling.animation.IAnimatable;
     import starling.textures.TextureAtlas;
     
-    public class AnimatedPDParticle extends PDParticle
+    public class AnimatedPDParticle extends PDParticle implements IAnimatable
     {
         public var frameNum:int=0;
         public var startFrame:int=-1;
@@ -32,9 +33,9 @@ package starling.extensions
             this.frameDuration = 1 / fps;
         }
         
-        public function advanceTime(passedTime:Number):void
+        public function advanceTime(time:Number):void
         {
-            this.frameTime += passedTime;
+            this.frameTime += time;
             if (this.frameTime >= frameDuration)
             {
                 if (++this.frameNum == this.regions.length)

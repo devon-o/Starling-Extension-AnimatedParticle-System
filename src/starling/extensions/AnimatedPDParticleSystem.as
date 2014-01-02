@@ -97,9 +97,10 @@ package starling.extensions
             mPremultipliedAlpha = false;
         }
         
-        override public function dispose():void 
+        override public function dispose(disposeAtlas:Boolean=false):void 
         {
-            this.atlas.dispose();
+            if (disposeAtlas)
+                this.atlas.dispose();
             super.dispose();
         }
         
