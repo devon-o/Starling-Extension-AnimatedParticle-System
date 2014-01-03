@@ -65,7 +65,7 @@ public class Main extends flash.display.Sprite
         var atlas:TextureAtlas = new TextureAtlas(Texture.fromBitmap(new BIRD_ATLAS()), desc);
         var pCfg:XML = XML(new PARTICLE_CONFIG());
         var ps:AnimatedPDParticleSystem = new AnimatedPDParticleSystem(pCfg, atlas, 30);
-        ps.emitterX = -20;;
+        ps.emitterX = -20;
         ps.emitterY = stage.stageHeight * .60;
         this.sRoot.addChild(ps);
         Starling.current.juggler.add(ps);

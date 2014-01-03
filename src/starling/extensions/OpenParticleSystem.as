@@ -7,6 +7,7 @@
 //	in accordance with the terms of the accompanying license agreement.
 //
 //  Modified for animation by Devon O. Wolfgang 2013
+//  Only modification is that private variables are now protected.
 // =================================================================================================
 
 package starling.extensions
